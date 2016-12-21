@@ -1,0 +1,20 @@
+{
+  "name": "mocha-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Runs your tests on `node` using `mocha` after your assets are bundled.",
+  "keywords": [
+    "mocha",
+    "webpack",
+    "test",
+    "plugin"
+  ],
+  "repository": "jameslnewell/mocha-webpack-plugin",
+  "dependencies": {
+    "supports-color": "^3.1.2"
+  },
+  "peerDependencies": {
+    "webpack": "^1 || ^2.1.0-beta",
+    "mocha": "^2 || ^3"
+  },
+  "license": "MIT"
+}
